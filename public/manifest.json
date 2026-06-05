@@ -1,0 +1,18 @@
+{
+  "name": "மாண்புமிகு மக்கள் - RPWD Act 2016 Interactive Portal",
+  "short_name": "Maanbumigu Makkal",
+  "description": "An interactive, bilingual (English & Tamil), fully-accessible reference portal and eligibility assessment suite for the Rights of Persons with Disabilities (RPWD) Act, 2016.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d2137",
+  "theme_color": "#0d2137",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

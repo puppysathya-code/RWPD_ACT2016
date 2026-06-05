@@ -5,8 +5,8 @@ import AccessibilityBar from "./components/AccessibilityBar";
 import ActContent from "./components/ActContent";
 import DisabilitiesGuide from "./components/DisabilitiesGuide";
 import EligibilityWizard from "./components/EligibilityWizard";
-import ComplaintForm from "./components/ComplaintForm";
 import TtsTroubleshootModal from "./components/TtsTroubleshootModal";
+import InstallPrompt from "./components/InstallPrompt";
 
 import "./App.css";
 
@@ -334,13 +334,6 @@ export default function App() {
               speakingComponent={speakingComponent}
               handleSpeak={handleSpeakGlobal}
             />
-          ) : activePanel === "complaint" ? (
-            <ComplaintForm
-              lang={lang}
-              speakingId={speakingId}
-              speakingComponent={speakingComponent}
-              handleSpeak={handleSpeakGlobal}
-            />
           ) : (
             <ActContent
               lang={lang}
@@ -388,6 +381,9 @@ export default function App() {
         onPlayEnglishFallback={handlePlayEnglishFallback}
         troubleData={ttsTroubleData}
       />
+
+      {/* Custom PWA Install Prompt Overlay */}
+      <InstallPrompt />
     </div>
   );
 }

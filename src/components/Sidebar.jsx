@@ -39,14 +39,6 @@ export default function Sidebar({
             </span>
           </button>
         </li>
-        <li className={`nav-item ${activePanel === "complaint" ? "active" : ""}`}>
-          <button className="nav-link" onClick={() => handleNavClick("complaint")}>
-            <span>⚖️</span>
-            <span>
-              {lang === "en" ? "Police Complaint Form" : "காவல் புகார் மனு"}
-            </span>
-          </button>
-        </li>
 
 
         <div style={{ height: "1px", background: "var(--border-color)", margin: "12px 0" }} />
