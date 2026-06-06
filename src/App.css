@@ -1152,3 +1152,60 @@ body.theme-high-contrast .search-highlight {
     padding: 12px;
   }
 }
+
+/* PWA Manual Install Instructions */
+.pwa-install-instructions {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px dashed rgba(200, 164, 74, 0.25);
+  text-align: left;
+  animation: pwaSlideUp 0.3s ease-out;
+}
+
+.pwa-instruction-heading {
+  font-family: var(--font-tamil), var(--font-display), sans-serif;
+  font-size: 0.875rem;
+  color: #ffd372;
+  margin: 0 0 10px 0;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.pwa-instruction-list {
+  margin: 0;
+  padding-left: 20px;
+  color: #f1f5f9;
+  font-size: 0.825rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pwa-instruction-list li {
+  line-height: 1.45;
+}
+
+.pwa-sub-instruction {
+  font-size: 0.725rem;
+  color: #94a3b8;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+.pwa-icon-inline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  padding: 3px;
+  margin: 0 4px;
+  vertical-align: middle;
+  color: #ffd372;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.share-icon svg, .add-icon svg {
+  display: block;
+}
+
